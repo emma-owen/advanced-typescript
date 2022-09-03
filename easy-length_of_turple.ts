@@ -23,6 +23,7 @@
 /* _____________ Your Code Here _____________ */
 
 type Length<T extends readonly any[]> = T['length'];
+// type Length<T extends { length: number }> = T['length'];
 
 /* _____________ Test Cases _____________ */
 import type { Equal, Expect } from '@type-challenges/utils';
